@@ -15,18 +15,17 @@ Provisionar uma stack Docker para rodar o n8n com foco em:
 - Docker
 - Docker Compose
 - n8n (Automação de Workflows)
-- (Opcional) Nginx, PostgreSQL, Redis, Traefik ou outros serviços de apoio
+- PostgreSQL, Redis (Mémoria e Cache)
 
 ## 📁 Estrutura do Projeto
 
 ```
 n8n-infra/
+├── config/
+│   └── .env.exemple
+├── .gitignore
 ├── docker-compose.yml
-├── .env.example
-├── volumes/
-│   └── n8n-data/
-├── docs/
-│   └── setup.md
+├── LICENSE
 └── README.md
 ```
 

@@ -41,12 +41,17 @@ n8n-infra/
 
 2. Crie um arquivo `.env` baseado no `.env.example`.
 
-3. Suba os containers:
+3. Para as chaves `N8N_ENCRYPTION_KEY`e `N8N_USER_MANAGEMENT_JWT_SECRET` execute o comando abaixo para cada uma delas e atribua o valor no arquivo `.env`.
+   ```bash
+   openssl rand -base64 32
+   ```
+
+4. Suba os containers:
    ```bash
    docker compose up -d
    ```
 
-4. Acesse o n8n via:
+5. Acesse o n8n via:
    ```
    http://localhost:5678
    ```

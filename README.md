@@ -3,6 +3,8 @@
 Infraestrutura automatizada para implantação do [n8n](https://n8n.io) utilizando Docker Compose.  
 Este projeto define os serviços, volumes e redes necessários para executar o n8n em um ambiente isolado.
 
+![alt text](assets/n8n-infra-docker.png)
+
 ## 📦 Objetivo
 
 Provisionar uma stack Docker para rodar o n8n com foco em:

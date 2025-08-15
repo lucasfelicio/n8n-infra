@@ -33,8 +33,6 @@ n8n-infra/
 
 ## 🚀 Como iniciar
 
-> ⚠️ Este projeto é privado e não deve ser utilizado em ambientes de produção sem autorização.
-
 1. Clone este repositório:
    ```bash
    git clone git@github.com:dinos-it/n8n-infra.git

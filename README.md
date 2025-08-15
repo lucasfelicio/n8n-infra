@@ -58,12 +58,6 @@ n8n-infra/
    http://localhost:5678
    ```
 
-## 🛡️ Segurança
-
-Este repositório é **estritamente privado** e voltado para uso interno da Dinos IT.  
-Não compartilhe este código ou as credenciais contidas nos arquivos de configuração.
-
 ---
 
-© 2025 **Dinos IT**. Todos os direitos reservados.  
-Este repositório é privado e de uso exclusivo da empresa.
+© 2025 **Winkller IT**.
